@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+
+}
+
+@layer components{
+    .navbar{
+        height: 72px;
+        gap : 81px;
+    }
+
+    .sidebar{
+        width: 100%;
+        max-width: 264px;
+        height: calc(100vh - 72px);
+        top: 72px;
+        left: 0;
+        padding: 40px 31px 32px 16px;
+    }
+
+    .sidebarBtn{
+        border-radius: 4px;
+        padding: 6px 16px 6px 16px;
+    }
+
+    .admin-content{
+        margin-top: 72px;
+        margin-left: 264px;
+        width: calc(100% - 264px);
+    }
+}
+
+@layer utilities{
+  
+}
